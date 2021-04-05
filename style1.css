@@ -13,14 +13,11 @@
   #bloc_page
   {
   Width:133rem;
-  margin-left:29rem;
-  height:auto;
+  margin:auto;
+  
   }
   body
   {
-  width:100vw;
-  height:195rem;
-  margin-left:0;
   font-family:'ralewaythin';
   }
   /*header*/
