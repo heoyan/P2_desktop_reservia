@@ -242,48 +242,37 @@ font-size:1.8rem;
   font-weight:400;
   }
   /*Hébergements*/ 
-  .section__heberg 
+  .bloc__heberg 
   {
-    display: flex;
+    display:flex;
+    flex-direction: column;
     flex-wrap: wrap;
-     margin-top: 3rem;
-    width:auto;
+    margin-top: 3rem;
+    width:133rem;
+    height:63rem;
     border:solid red 0.2rem;
      }
-      .section__heberg i {
+      .bloc__heberg i {
         color: #0065fc;
       }
-      .section__heberg a
+      .bloc__heberg a
        {
          
         text-decoration: none;
         color: black;
       }
-  .premier_bloc_hosting_cards
-  {
-      display:flex;
-      height:21.5rem;
-      width:83rem;
-      margin-bottom:3rem;
-  }
-  .deuxieme_bloc_hosting_cards
-  {
-      display:flex;
-      height:21.5rem;
-      width:83rem;
-      margin-bottom:3rem;   
-  }
-  .hostingmaincards
+  
+  .hosting_main_cards
   {
   display:flex;
-  flex-direction:column;
+  flex-wrap:wrap;
   width:88rem;
-  height:62.5rem;
     border-radius: 1.5rem;
     box-sizing: border-box;
     margin-right:2em;
     background-color: #F2F2F2;
     margin-bottom:3.2rem;
+    border:solid green 0.2rem;
   }
   .more
   {
@@ -294,9 +283,9 @@ font-size:1.8rem;
   .auberge
   {
       display:flex;
-      height:20rem;
+      height:18rem;
       width:23.6rem;
-      background-color:white;
+      background-color:rgb(245, 14, 14);
       border-radius: 1.8rem; 
       padding-right:1rem;
       padding-left:1rem;
@@ -306,7 +295,7 @@ font-size:1.8rem;
   .hduport
   { 
       display:flex; 
-      height:20rem;
+      height:18rem;
       width:23.6rem;
       background-color:white;
       border-radius: 1.8rem;
@@ -318,7 +307,7 @@ font-size:1.8rem;
   .hlmouettes
   {   
       display:flex; 
-      height:20rem;
+      height:18rem;
       width:23.6rem;
       background-color:white;
       border-radius: 1.8rem;
@@ -330,7 +319,7 @@ font-size:1.8rem;
   .auberge_du_panier
   {
       display:flex;
-      height:20rem;
+      height:18rem;
       width:23.6rem;
       background-color:white;
       border-radius: 1.8rem;
@@ -342,7 +331,7 @@ font-size:1.8rem;
   .amina
   {
       display:flex; 
-      height:20rem;
+      height:18rem;
       width:23.6rem;
       background-color:white;
       border-radius: 1.8rem;
@@ -354,7 +343,7 @@ font-size:1.8rem;
   .aubdelamer
   { 
       display:flex; 
-      height:20rem;
+      height:18rem;
       width:23.6rem;
       background-color:white;
       border-radius: 1.8rem;
@@ -371,50 +360,16 @@ font-size:1.8rem;
   margin-left:3.5rem;
   }
 
-  .auberge a img
+  .hosting_main_cards a img
   {
 
       height:11rem;
       width:24rem;
       border-radius:1rem 1rem 0 0;
       margin-right:1.5rem;
+      object-fit:cover;
   }
-  .hduport a img
-  {   
-      height:11rem;
-      width:24rem;
-      border-radius:1rem 1rem 0 0;
-      margin-right:1.5rem;
-  }
-  .hlmouettes a img
-  {
-      height:11rem;
-      width:24rem;
-      border-radius:1rem 1rem 0 0;
-      margin-right:1.5rem;
-  }
-  .aubdelamer a img
-  {
-  height:11rem;
-  width:24rem;
-  border-radius:1rem 1rem 0 0;
-  margin-right:1.5rem;
-  }
-  .auberge_du_panier a img
-  {
-      height:11rem;
-      width:24rem;
-      border-radius:1rem 1rem 0 0;
-      margin-right:1.5rem;
-      
-  }
-  .amina a img
-  {
-      height:11rem;
-      width:24rem;
-      border-radius:1rem 1rem 0 0;
-      margin-right:1.5rem;
-  }
+  
   .staravis
   {
     margin:0 0.75rem 0.25rem 0.75rem;
@@ -440,10 +395,12 @@ font-size:1.8rem;
     }
   .right_sideheberg
   { 
+      display:flex;
+      flex-direction: column;
+      flex-wrap:wrap;
       background-color: #F2F2F2;
       width:42rem;
       height:62.5rem;
-      margin-right:0;
       border-radius:1.5rem;
       
   }
