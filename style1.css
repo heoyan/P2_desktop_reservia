@@ -242,7 +242,7 @@ font-size:1.8rem;
   font-weight:400;
   }
   /*Hébergements*/ 
-  .bloc__heberg 
+  .bloc_heberg_popu /*section liant cards heberg et populaires*/
   {
     display:flex;
     flex-direction: column;
@@ -250,29 +250,33 @@ font-size:1.8rem;
     margin-top: 3rem;
     width:133rem;
     height:63rem;
-    border:solid red 0.2rem;
+    border:solid red 0.2rem hidden;
      }
-      .bloc__heberg i {
+      .bloc_heberg_popu i {
         color: #0065fc;
       }
-      .bloc__heberg a
+      .bloc_heberg_popu a
        {
          
         text-decoration: none;
         color: black;
       }
-  
+      .titres_hosting_main_cards/*bloc liants titres et cards hebergements*/
+      {
+        border:solid orange 0.2rem;
+        height:62rem;
+        border-radius: 1.5rem;
+        background-color: #F2F2F2;
+      }
   .hosting_main_cards
   {
-  display:flex;
-  flex-wrap:wrap;
-  width:88rem;
-    border-radius: 1.5rem;
+   display:flex;
+   flex-wrap:wrap;
+    width:88rem;
     box-sizing: border-box;
     margin-right:2em;
-    background-color: #F2F2F2;
     margin-bottom:3.2rem;
-    border:solid green 0.2rem;
+    border:solid green 0.2rem hidden;
   }
   .more
   {
@@ -280,78 +284,19 @@ font-size:1.8rem;
     font-weight:700;
     margin-left:4rem;
   }
-  .auberge
+  .hostingcards
   {
       display:flex;
       height:18rem;
       width:23.6rem;
-      background-color:rgb(245, 14, 14);
+      background-color:rgb(255, 255, 255);
       border-radius: 1.8rem; 
       padding-right:1rem;
       padding-left:1rem;
       padding-top:1rem ;
       margin-left:3rem;
   }
-  .hduport
-  { 
-      display:flex; 
-      height:18rem;
-      width:23.6rem;
-      background-color:white;
-      border-radius: 1.8rem;
-      padding-right:1rem;
-      padding-left:1rem;
-      padding-top:1rem ;
-      margin-left:3rem;
-  }
-  .hlmouettes
-  {   
-      display:flex; 
-      height:18rem;
-      width:23.6rem;
-      background-color:white;
-      border-radius: 1.8rem;
-      padding-right:1rem;
-      padding-left:1rem;
-      padding-top:1rem ;
-      margin-left:3rem;
-  }
-  .auberge_du_panier
-  {
-      display:flex;
-      height:18rem;
-      width:23.6rem;
-      background-color:white;
-      border-radius: 1.8rem;
-      padding-right:1rem;
-      padding-left:1rem;
-      padding-top:1rem ;
-      margin-left:3rem;
-  }
-  .amina
-  {
-      display:flex; 
-      height:18rem;
-      width:23.6rem;
-      background-color:white;
-      border-radius: 1.8rem;
-      padding-right:1rem;
-      padding-left:1rem;
-      padding-top:1rem ;
-      margin-left:3rem;
-  }
-  .aubdelamer
-  { 
-      display:flex; 
-      height:18rem;
-      width:23.6rem;
-      background-color:white;
-      border-radius: 1.8rem;
-      padding-right:1rem;
-      padding-left:1rem;
-      padding-top:1rem ;
-      margin-left:3rem;
-  } 
+ 
   #Hébergement 
   {
       display:flex;
