@@ -289,7 +289,7 @@ color: var(--tertiary-color-alt);
 .hosting_main_cards
 {
 display:flex;
-align-itemsgi: center;
+align-items:center;
 flex-wrap:wrap;
 width:88rem;
 height:45rem;
