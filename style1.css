@@ -242,7 +242,7 @@ font-size:1.6rem;
 padding-left:3.2rem;
 font-weight:400;
 }
-/*Hébergements*/ 
+
 .bloc_heberg_popu /*section liant cards heberg et populaires*/
 {
 display:flex;
@@ -292,10 +292,11 @@ color: var(--tertiary-color-alt);
 display:flex;
 flex-wrap:wrap;
 width:88rem;
+height:45rem;
 box-sizing: border-box;
 margin-right:2em;
 margin-bottom:3.2rem;
-border:solid green 0.2rem hidden;
+border:solid green 0.2rem ;
 }
 .more
 {
@@ -306,14 +307,17 @@ margin-left:4rem;
 .hostingcards
 {
   display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
   height:18rem;
   width:23.6rem;
-  background-color:rgb(255, 255, 255);
+  background-color:rgb(18, 236, 47);
   border-radius: 1.8rem; 
   padding-right:1rem;
   padding-left:1rem;
   padding-top:1rem ;
   margin-left:3rem;
+  border:solid blue 0.2rem;
 }
 
 #Hébergement 
@@ -330,7 +334,6 @@ margin-left:3.5rem;
   height:11rem;
   width:24rem;
   border-radius:1rem 1rem 0 0;
-  margin-right:1.5rem;
   object-fit:cover;
 }
 
@@ -419,6 +422,7 @@ font-weight:700;
 }
 .cart_description_Aside
 {
+  
   margin-left:1.2rem;
   font-size:1.6rem;
   margin-top:0;
@@ -426,7 +430,6 @@ font-weight:700;
 p.stars_Aside 
 {
   display:flex;
-  align-items: flex-end;
   width:6.5rem;
   margin-left:1.2rem;
 border:solid green 0.2rem;
