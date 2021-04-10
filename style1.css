@@ -1,163 +1,163 @@
-  /*! generateur de fonte par fontsquirrel */
-  @font-face {
-      font-family: 'ralewaythin';
-      src: url('raleway-thin-webfont.woff2') format('woff2'),
-          url('raleway-thin-webfont.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-  }
-  html
-  {
-  font-size:62.5%;
-  }
-  #bloc_page
-  {
-  Width:133rem;
-  margin:auto;
-  
-  }
-  body
-  {
-  font-family:'ralewaythin';
-  }
-  /*header*/
-  header.top
-  {
-  display:flex;
-  justify-content: space-between;
-  width:133rem; 
-  margin:0; 
-  border:solid blue 0.2rem hidden;
-  }
+/*! generateur de fonte par fontsquirrel */
+@font-face {
+  font-family: 'ralewaythin';
+  src: url('raleway-thin-webfont.woff2') format('woff2'),
+      url('raleway-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+html
+{
+font-size:62.5%;
+}
+#bloc_page
+{
+Width:133rem;
+margin:auto;
+
+}
+body
+{
+font-family:'ralewaythin';
+}
+/*header*/
+header.top
+{
+display:flex;
+justify-content: space-between;
+width:133rem; 
+margin:0; 
+border:solid blue 0.2rem hidden;
+}
 .btn_inscrire
 {
-  display:flex;
-  font-size:1.8rem;
-  margin-top:5rem;
-  
+display:flex;
+font-size:1.8rem;
+margin-top:5rem;
+
 }
 a.btn_inscrire 
 {
-  text-decoration:none;
+text-decoration:none;
 }
 a.btn_inscrire:hover
 {
-  color:#0065fc;
+color:#0065fc;
 }
-  .logo img
-  {
-  height:4rem;
-  width:10rem;
-  margin-top:3.5rem;
-  margin-left:0rem;
-  }
-  .logo
-  {
-      display:flex;
-      flex-direction:column;
-      width:95rem;
-      padding-bottom:2.5rem;
-  }
+.logo img
+{
+height:4rem;
+width:10rem;
+margin-top:3.5rem;
+margin-left:0rem;
+}
+.logo
+{
+  display:flex;
+  flex-direction:column;
+  width:95rem;
+  padding-bottom:2.5rem;
+}
 nav
 {
 display:flex;
 
 }
-  nav ul.topright 
-  {
-  display:flex;
-  justify-content: flex-end;
-  margin-top:5rem;
-  width:50rem; 
-  margin-right:7rem;
-  }
-  .topright a,li
-  {
-  padding-right:7rem;
-  text-decoration: none;
-  list-style: none;
-  font-size:1.8rem;
-  padding-right:3rem;
-  color:black;
-  }
-  .topright a:hover
-  {
-  color: #0065fc;
-  }
-  /*end HEADER*/
+nav ul.topright 
+{
+display:flex;
+justify-content: flex-end;
+margin-top:5rem;
+width:50rem; 
+margin-right:7rem;
+}
+.topright a,li
+{
+padding-right:7rem;
+text-decoration: none;
+list-style: none;
+font-size:1.8rem;
+padding-right:3rem;
+color:black;
+}
+.topright a:hover
+{
+color: #0065fc;
+}
+/*end HEADER*/
 /* /*tous les filtres et l icone de resultat */
-  .First > h1:nth-child(1)
-  {
-  font-size:3.6rem;
-  margin-left:3.5rem;
-  margin-bottom:0rem;  
-   }
-    .descrip
-    {
-    font-weight:400;
-    font-size:1.6rem;
-    margin-left:0;
-    }
-    #barre
-    {
-    display:flex;
-    justify-content: flex-start;
-    width:42rem;
-    height:5.5rem;
-    margin-left:0;
-    color:white;
-    }
-    #barre i
-  { 
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      padding-left:1.5rem;   
-      color:rgb(5, 5, 5);
-      background-color:gray;
-      border-radius:1.5rem 0rem 0rem 1.5rem;
-      width:5.5rem;
-      Font-size:1.8rem;
-  }
-  .ville
-  {
+.First > h1:nth-child(1)
+{
+font-size:3.6rem;
+margin-left:3.5rem;
+margin-bottom:0rem;  
+}
+.descrip
+{
+font-weight:400;
+font-size:1.6rem;
+margin-left:0;
+}
+#barre
+{
+display:flex;
+justify-content: flex-start;
+width:42rem;
+height:5.5rem;
+margin-left:0;
+color:white;
+}
+#barre i
+{ 
   display:flex;
   justify-content:center;
   align-items:center;
-  color:rgb(10, 10, 10);
-  border-right-width:0;
-  padding-left:0.3rem;
-  width:22rem;
-  height:5.5rem;
-  }
-  #édition_client 
-  {
-  display:flex;
-  border:solid rgba(204, 203, 203, 0.842) 0.05rem;
-  height:5.5rem;
-  width: 22rem;  
-  padding-left:3.5rem;
-  border-left-style:none;
-  border-right-style:none;
+  padding-left:1.5rem;   
+  color:rgb(5, 5, 5);
+  background-color:gray;
+  border-radius:1.5rem 0rem 0rem 1.5rem;
+  width:5.5rem;
   Font-size:1.8rem;
-  font-weight:700;
-  }
-  .rechercher
-  {
-      display:flex;
-      background-color:blue;
-      color:white;
-      font-weight:bold;
-      width:14rem;
-      justify-content:center;
-      align-items:center;
-      font-size:1.6rem;
-      font-weight:700;  
-      border-radius: 0rem 1.5rem 1.5rem 0;
-  }
-  /*filtres*/
-  .allfilters
-  {
+}
+.ville
+{
+display:flex;
+justify-content:center;
+align-items:center;
+color:rgb(10, 10, 10);
+border-right-width:0;
+padding-left:0.3rem;
+width:22rem;
+height:5.5rem;
+}
+#édition_client 
+{
+display:flex;
+border:solid rgba(204, 203, 203, 0.842) 0.05rem;
+height:5.5rem;
+width: 22rem;  
+padding-left:3.5rem;
+border-left-style:none;
+border-right-style:none;
+Font-size:1.8rem;
+font-weight:700;
+}
+.rechercher
+{
+  display:flex;
+  background-color:blue;
+  color:white;
+  font-weight:bold;
+  width:14rem;
+  justify-content:center;
+  align-items:center;
+  font-size:1.6rem;
+  font-weight:700;  
+  border-radius: 0rem 1.5rem 1.5rem 0;
+}
+/*filtres*/
+.allfilters
+{
 display:flex; 
 justify-content:space-between;
 width:95rem;
@@ -167,451 +167,452 @@ font-family: 'ralewaythin';
 font-weight:bold;
 margin-left:0;
 font-size:1.8rem;
-  }
-  .Filtre1
-  {
+}
+.Filtre1
+{
+display:flex;
+margin-top:1.2rem;
+margin-right:0rem;
+font-family:'ralewaythin';
+font-size:2.4rem;
+}
+.filtres
+{
+border:solid black 0.2rem;
+display:flex;
+align-items: center;
+border-radius:3.2rem 3.2rem 3.2rem 3.2rem;
+border:solid rgb(119, 184, 238) 0.2rem;
+width:18rem;
+height:4.8rem;   
+}
+a.filtres 
+{
+display:flex;
+text-decoration:none;
+}
+.filtres:hover
+{
+background-color: #DEEBFF;   
+}
+.Font_border
+{
+display:block;
+display:flex;
+align-items:center;
+justify-content:center;
+background-color: #DEEBFF;
+border:solid rgb(119, 184, 238) 0.2rem;
+border-radius:50% ;
+width:5rem;
+height:5rem;
+text-align:center;   
+}
+.titres_filtres
+{
+color:black;
+padding-left:1.5rem;
+}
+.icoandresult
+{
   display:flex;
-  margin-top:1.2rem;
-  margin-right:0rem;
-  font-family:'ralewaythin';
-  font-size:2.4rem;
-  }
-  .filtres
-  {
-  border:solid black 0.2rem;
+  align-items:baseline;
+  margin-bottom:2rem;
+  
+}
+
+.rechercher
+{
   display:flex;
-  align-items: center;
-  border-radius:3.2rem 3.2rem 3.2rem 3.2rem;
-  border:solid rgb(119, 184, 238) 0.2rem;
-  width:18rem;
-  height:4.8rem;   
-  }
-  a.filtres 
-  {
-  display:flex;
- text-decoration:none;
-  }
-  .filtres:hover
-  {
-  background-color: #DEEBFF;   
-  }
-  .Font_border
-  {
-  display:block;
-  display:flex;
-  align-items:center;
+  background-color:blue;
+  color:white;
+  font-weight:bold;
+  width:14rem;
   justify-content:center;
-  background-color: #DEEBFF;
-  border:solid rgb(119, 184, 238) 0.2rem;
-  border-radius:50% ;
-  width:5rem;
-  height:5rem;
-  text-align:center;   
-  }
-  .titres_filtres
-  {
-    color:black;
-    padding-left:1.5rem;
-  }
-  .icoandresult
-  {
-      display:flex;
-      align-items:baseline;
-      margin-bottom:2rem;
-      
-  }
-  
-  .rechercher
-  {
-      display:flex;
-      background-color:blue;
-      color:white;
-      font-weight:bold;
-      width:14rem;
-      justify-content:center;
-      align-items:center;
-      font-size:1.6rem;
-      font-weight:700;  
-      border-radius: 0rem 1.5rem 1.5rem 0;
-  }
-  .rechercher a
-  {
-      text-decoration:none;
-      color:white;
-  }
-  
-  .commentaire_recherche
-  { 
-  font-family:'ralewaythin';
+  align-items:center;
   font-size:1.6rem;
-  padding-left:3.2rem;
-  font-weight:400;
-  }
-  /*Hébergements*/ 
-  .bloc_heberg_popu /*section liant cards heberg et populaires*/
-  {
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 3rem;
-    width:133rem;
-    height:63rem;
-    border:solid red 0.2rem hidden;
-     }
-     /*reglages couleurs etoiles*/
-     :root
-     {
-      --primary-color: #0065FC;
-      --secondary-color: #DEEBFF;
-      --tertiary-color: #F2F2F2;
-      --tertiary-color-alt: #D9D9D9;
-  }
-     
-    .staravis i
-    {
-      color:#0065fc;
-    }
-    /* Réglages étoiles */
+  font-weight:700;  
+  border-radius: 0rem 1.5rem 1.5rem 0;
+}
+.rechercher a
+{
+  text-decoration:none;
+  color:white;
+}
+
+.commentaire_recherche
+{ 
+font-family:'ralewaythin';
+font-size:1.6rem;
+padding-left:3.2rem;
+font-weight:400;
+}
+/*Hébergements*/ 
+.bloc_heberg_popu /*section liant cards heberg et populaires*/
+{
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+margin-top: 3rem;
+width:133rem;
+height:63rem;
+border:solid red 0.2rem hidden;
+ }
+ /*reglages couleurs etoiles*/
+ :root
+ {
+  --primary-color: #0065FC;
+  --secondary-color: #DEEBFF;
+  --tertiary-color: #F2F2F2;
+  --tertiary-color-alt: #D9D9D9;
+}
+ 
+.staravis i
+{
+  color:#0065fc;
+}
+/* Réglages étoiles */
 
 .fa-star {
-  color: var(--primary-color);
+color: var(--primary-color);
 }
 .fa-star.unchecked {
-  color: var(--tertiary-color-alt);
+color: var(--tertiary-color-alt);
 }
-      .bloc_heberg_popu a
-       { 
-        text-decoration: none;
-        color: black;
-      }
-      .titres_hosting_main_cards/*bloc liants titres et cards hebergements*/
-      {
-        border:solid orange 0.2rem hidden;
-        width:88rem;
-        height:62rem;
-        border-radius: 1.5rem;
-        background-color: #F2F2F2;
-      }
-  .hosting_main_cards
+  .bloc_heberg_popu a
+   { 
+    text-decoration: none;
+    color: black;
+  }
+  .titres_hosting_main_cards/*bloc liants titres et cards hebergements*/
   {
-   display:flex;
-   flex-wrap:wrap;
+    border:solid orange 0.2rem hidden;
     width:88rem;
-    box-sizing: border-box;
-    margin-right:2em;
-    margin-bottom:3.2rem;
-    border:solid green 0.2rem hidden;
+    height:62rem;
+    border-radius: 1.5rem;
+    background-color: #F2F2F2;
   }
-  .more
-  {
-    font-size:1.8rem;
-    font-weight:700;
-    margin-left:4rem;
-  }
-  .hostingcards
-  {
-      display:flex;
-      height:18rem;
-      width:23.6rem;
-      background-color:rgb(255, 255, 255);
-      border-radius: 1.8rem; 
-      padding-right:1rem;
-      padding-left:1rem;
-      padding-top:1rem ;
-      margin-left:3rem;
-  }
- 
-  #Hébergement 
-  {
-      display:flex;
-  color:black;
-  font-size:2.4rem; 
-  margin-left:3.5rem;
-  }
+.hosting_main_cards
+{
+display:flex;
+flex-wrap:wrap;
+width:88rem;
+box-sizing: border-box;
+margin-right:2em;
+margin-bottom:3.2rem;
+border:solid green 0.2rem hidden;
+}
+.more
+{
+font-size:1.8rem;
+font-weight:700;
+margin-left:4rem;
+}
+.hostingcards
+{
+  display:flex;
+  height:18rem;
+  width:23.6rem;
+  background-color:rgb(255, 255, 255);
+  border-radius: 1.8rem; 
+  padding-right:1rem;
+  padding-left:1rem;
+  padding-top:1rem ;
+  margin-left:3rem;
+}
 
-  .hosting_main_cards a img
-  {
+#Hébergement 
+{
+  display:flex;
+color:black;
+font-size:2.4rem; 
+margin-left:3.5rem;
+}
 
-      height:11rem;
-      width:24rem;
-      border-radius:1rem 1rem 0 0;
-      margin-right:1.5rem;
-      object-fit:cover;
-  }
-  
-  .staravis
-  {
-    margin:0 0.75rem 0.25rem 0.75rem;
-  }
-  .CardTitle
-    {
-      font-weight: bold;
-      margin:0.25rem 0.75rem 0 0.75rem;
-      font-size:1.87rem;
-    }
-    .cart_description 
-    {
-      display:flex;
-      font-size:1.6rem;
-      margin:0.25rem 0.75rem 0.25rem 0.75rem;
-    }
-  /*travail css sur le bloc de droite populaires*/
+.hosting_main_cards a img
+{
 
-    aside h1
-    {
-      font-size:2.4rem;
-      font-weight:700;
-    }
-  .right_sideheberg
-  { 
-      display:flex;
-      flex-direction:column;
-      flex-wrap:wrap;
-      background-color: #F2F2F2;
-      width:42rem;
-      height:62rem;
-      border-radius:1.5rem;
-      
-  }
-  .figures_aside {
-      display: flex;
-      flex-direction: column;
-      margin-left: 1.25rem;
-      margin-right: 1.875rem;
-      
-    }
-    
-    .figures_aside figure {
-      display: flex;
-      width:90%;
-      margin: 1rem 2rem 0.5rem 1.5rem;
-      padding:0.35rem;
-      background-color: white;
-      border-radius: 1rem;
-      box-shadow: 0.2rem 0.1rem 0.5rem 0.2rem rgb(209 209 209);
-    }
-    
-    .figures_aside  img 
-    {
-      width: 12.8rem;
-      height:12.5rem;
-      border-radius: 1rem 0 0 1rem;
-      object-fit: cover;
-    }
-    aside div:first-child
-    {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-right: 1.5rem;
-      margin-left:1.5rem;
-    
-    }
-    aside div:first-child i {
-      color: black;
-      margin-top: 0.5rem;
-      font-size:2.5rem;
-    }
-    
-    .CardTitleAside
-    { 
-    margin:0.35rem 0.75rem 0 1.2rem;
-    font-size:1.87rem;
-    font-weight:700;
-    }
-    .cart_description_Aside
-    {
-      margin-left:1.2rem;
-      font-size:1.6rem;
-      margin-top:0;
-    }
-    p.stars_Aside 
-    {
-      display:flex;
-      align-items: flex-end;
-      width:6.5rem;
-      margin-left:1.2rem;
-    border:solid green 0.2rem;
-    
-    }
-    /*container sections gauche et droite activites*/
-    #main2
-    {
-      display:flex;
-    }
-    /*bloc gauche et droite activites*/
-    .activites2
-    {
-    display:flex;
-    width:65rem;
-    height:44.5rem;
-    padding-left:3.8rem;   
-    }
-    .activites
-    {
-      display:flex;
-      width:65rem;
-      height:44.5rem;
-    }
-    .activites a
-    {
-  text-decoration:none;
-  color:black;
-    }
-    .activites2 a
-    {
-      text-decoration:none;
-      color:black;
-    }
-    
-  /*bloc images*/
-  img.vp
-    {
-        height:39rem;
-        width:30rem;
-        border-radius:1.5rem 1.5rem 0 0;
-        object-fit:cover;
-    }
-  img.fort_pomegues 
-    {
-        width:30rem;
-        height:18rem;
-        object-fit: cover;
-        border-radius:1.5rem 1.5rem 0 0;
-          
-    }
-  img.idf 
-    {
-    width:30rem;
-    height:11rem; 
-    object-fit:cover;
-    border-radius:1.5rem 1.5rem 0 0;
-    }
-    
-    .jumelé 
-    {       
+  height:11rem;
+  width:24rem;
+  border-radius:1rem 1rem 0 0;
+  margin-right:1.5rem;
+  object-fit:cover;
+}
+
+.staravis
+{
+margin:0 0.75rem 0.25rem 0.75rem;
+}
+.CardTitle
+{
+  font-weight: bold;
+  margin:0.25rem 0.75rem 0 0.75rem;
+  font-size:1.87rem;
+}
+.cart_description 
+{
+  display:flex;
+  font-size:1.6rem;
+  margin:0.25rem 0.75rem 0.25rem 0.75rem;
+}
+/*travail css sur le bloc de droite populaires*/
+
+aside h1
+{
+  font-size:2.4rem;
+  font-weight:700;
+}
+.right_sideheberg
+{ 
   display:flex;
   flex-direction:column;
-  height:44.5rem;
-  width:30rem;
-  margin-left:4.4rem;
-  }
+  flex-wrap:wrap;
+  background-color: #F2F2F2;
+  width:42rem;
+  height:62rem;
+  border-radius:1.5rem;
   
-    /*bloc containers cards*/
-    .acticard1
-    {
-    display:flex;
-    height:44.5rem;
-    width:30rem;
-    box-shadow:0 0 2rem #afaeaed7;
-    border-radius:1.5rem 1.5rem 0 0;
+}
+.figures_aside {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  margin-left: 1.25rem;
+  margin-right: 1.875rem;
+  
+}
 
-    }
-    .acticard2
-    {
-      display:flex;
-      height:23.5rem;
-      width:30rem;
-      box-shadow:0 0 2rem #afaeaed7;
-      border-radius:1.5rem 1.5rem 0 0;
-    }
-    .acticard3
-    {
-      display:flex;
-      height:16rem;
-      width:30rem;
-      box-shadow:0 0 2rem #afaeaed7;
-      border-radius:1.5rem 1.5rem 0 0;
-      margin-top:5rem;
-    }
-    .titleactivity
-    {
-    font-size:1.8rem;
-    margin:0.1rem 1.5rem 0 3rem;
-    }
-    .acticard4
-    {
-      display:flex;
-    height:44.5rem;
-    width:30rem;
-    box-shadow:0 0 2rem #afaeaed7;
-    border-radius:1.5rem 1.5rem 0 0;
-    }
-    .jumelé2
-    {
-      display:flex;
-  flex-direction:column;
+.figures_aside figure {
+  display: flex;
+  width:90%;
+  margin: 1rem 2rem 0.5rem 1.5rem;
+  padding:0.35rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.1rem 0.5rem 0.2rem rgb(209 209 209);
+}
+
+.figures_aside  img 
+{
+  width: 12.8rem;
+  height:12.5rem;
+  border-radius: 1rem 0 0 1rem;
+  object-fit: cover;
+}
+aside div:first-child
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1.5rem;
+  margin-left:1.5rem;
+
+}
+aside div:first-child i {
+  color: black;
+  margin-top: 0.5rem;
+  font-size:2.5rem;
+}
+
+.CardTitleAside
+{ 
+margin:0.35rem 0.75rem 0 1.2rem;
+font-size:1.87rem;
+font-weight:700;
+}
+.cart_description_Aside
+{
+  margin-left:1.2rem;
+  font-size:1.6rem;
+  margin-top:0;
+}
+p.stars_Aside 
+{
+  display:flex;
+  align-items: flex-end;
+  width:6.5rem;
+  margin-left:1.2rem;
+border:solid green 0.2rem;
+
+}
+/*container sections gauche et droite activites*/
+#main2
+{
+  display:flex;
+}
+/*bloc gauche et droite activites*/
+.activites2
+{
+display:flex;
+width:65rem;
+height:44.5rem;
+padding-left:3.8rem;   
+}
+.activites
+{
+  display:flex;
+  width:65rem;
   height:44.5rem;
-  width:30rem;
-  margin-left:4.4rem;
-    }
-    .acticard5
-    {
-      display:flex;
-      height:23.5rem;
-      width:30rem;
-      box-shadow:0 0 2rem #afaeaed7;
-      border-radius:1.5rem 1.5rem 0 0;
-    
-    }
-    .acticard6
-    {
-      display:flex;
-      height:16rem;
-      width:30rem;
-      box-shadow:0 0 2rem #afaeaed7;
-      border-radius:1.5rem 1.5rem 0 0;
-      margin-top:5rem;
-    }
-    img.parc_calanques
-    {
-      height:39rem;
-        width:30rem;
-        border-radius:1.5rem 1.5rem 0 0;
-        object-fit:cover;
-    }
-    img.ndg
-    {
-      width:30rem;
-        height:18rem;
-        object-fit: cover;
-        border-radius:1.5rem 1.5rem 0 0;
-          
-    }
-    img.parc
-    {
-      width:30rem;
-    height:11rem; 
-    object-fit:cover;
+}
+.activites a
+{
+text-decoration:none;
+color:black;
+}
+.activites2 a
+{
+  text-decoration:none;
+  color:black;
+}
+
+/*bloc images*/
+img.vp
+{
+    height:39rem;
+    width:30rem;
     border-radius:1.5rem 1.5rem 0 0;
-    }
-    /*footer*/
-    .endbloc
-    {
-      display:flex;
-      background-color:#F2F2F2;
-      margin-top:3.5rem;
-      width:143rem;
-      height:22rem;
-      margin-left:24rem;
-    }
-    section nav
-    {
-      display:flex;
-    }
-    .nav123
-    {
-      display:flex;
-      justify-content: space-between;
-      align-items:center;
-      width:105rem;
-    }
-    .footertitle
-    {
-      font-size:1.8rem;
-      font-weight:700;
-    }
-    footer li
-    {
-      padding:1.5rem;
-    }
+    object-fit:cover;
+}
+img.fort_pomegues 
+{
+    width:30rem;
+    height:18rem;
+    object-fit: cover;
+    border-radius:1.5rem 1.5rem 0 0;
+      
+}
+img.idf 
+{
+width:30rem;
+height:11rem; 
+object-fit:cover;
+border-radius:1.5rem 1.5rem 0 0;
+}
+
+.jumelé 
+{       
+display:flex;
+flex-direction:column;
+height:44.5rem;
+width:30rem;
+margin-left:4.4rem;
+}
+
+/*bloc containers cards*/
+.acticard1
+{
+display:flex;
+height:44.5rem;
+width:30rem;
+box-shadow:0 0 2rem #afaeaed7;
+border-radius:1.5rem 1.5rem 0 0;
+
+}
+.acticard2
+{
+  display:flex;
+  height:23.5rem;
+  width:30rem;
+  box-shadow:0 0 2rem #afaeaed7;
+  border-radius:1.5rem 1.5rem 0 0;
+}
+.acticard3
+{
+  display:flex;
+  height:16rem;
+  width:30rem;
+  box-shadow:0 0 2rem #afaeaed7;
+  border-radius:1.5rem 1.5rem 0 0;
+  margin-top:5rem;
+}
+.titleactivity
+{
+font-size:1.8rem;
+margin:0.1rem 1.5rem 0 3rem;
+}
+.acticard4
+{
+  display:flex;
+height:44.5rem;
+width:30rem;
+box-shadow:0 0 2rem #afaeaed7;
+border-radius:1.5rem 1.5rem 0 0;
+}
+.jumelé2
+{
+  display:flex;
+flex-direction:column;
+height:44.5rem;
+width:30rem;
+margin-left:4.4rem;
+}
+.acticard5
+{
+  display:flex;
+  height:23.5rem;
+  width:30rem;
+  box-shadow:0 0 2rem #afaeaed7;
+  border-radius:1.5rem 1.5rem 0 0;
+
+}
+.acticard6
+{
+  display:flex;
+  height:16rem;
+  width:30rem;
+  box-shadow:0 0 2rem #afaeaed7;
+  border-radius:1.5rem 1.5rem 0 0;
+  margin-top:5rem;
+}
+img.parc_calanques
+{
+  height:39rem;
+    width:30rem;
+    border-radius:1.5rem 1.5rem 0 0;
+    object-fit:cover;
+}
+img.ndg
+{
+  width:30rem;
+    height:18rem;
+    object-fit: cover;
+    border-radius:1.5rem 1.5rem 0 0;
+      
+}
+img.parc
+{
+  width:30rem;
+height:11rem; 
+object-fit:cover;
+border-radius:1.5rem 1.5rem 0 0;
+}
+/*footer*/
+.endbloc
+{
+  display:flex;
+  background-color:#F2F2F2;
+  margin-top:3.5rem;
+  width:143rem;
+  height:22rem;
+  margin-left:24rem;
+}
+section nav
+{
+  display:flex;
+}
+.nav123
+{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  width:105rem;
+}
+.footertitle
+{
+  font-size:1.8rem;
+  font-weight:700;
+}
+footer li
+{
+  padding:1.5rem;
+}
