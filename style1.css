@@ -25,6 +25,7 @@ header.top
 {
 display:flex;
 justify-content: space-between;
+align-items: baseline;
 width:133rem; 
 margin:0; 
 border:solid blue 0.2rem hidden;
@@ -39,6 +40,7 @@ margin-top:5rem;
 a.btn_inscrire 
 {
 text-decoration:none;
+margin-right:7.5rem;
 }
 a.btn_inscrire:hover
 {
@@ -48,41 +50,39 @@ color:#0065fc;
 {
 height:4rem;
 width:10rem;
-margin-top:3.5rem;
 margin-left:0rem;
 }
 .logo
 {
   display:flex;
-  flex-direction:column;
-  width:95rem;
-  padding-bottom:2.5rem;
+  flex:1;
 }
 nav
 {
 display:flex;
-
 }
 nav ul.topright 
 {
 display:flex;
-justify-content: flex-end;
-margin-top:5rem;
-width:50rem; 
-margin-right:7rem;
+justify-content:flex-end;
+list-style: none;
 }
-.topright a,li
+a.acti,a.heb
 {
 padding-right:7rem;
 text-decoration: none;
 list-style: none;
 font-size:1.8rem;
-padding-right:3rem;
+padding-right:5.5rem;
 color:black;
+padding-top: 3.5rem;
 }
-.topright a:hover
+ a.acti:hover,a.heb:hover
 {
 color: #0065fc;
+border-top:solid #0065FC;
+padding-top:3.5rem;
+padding-right:5.5rem;
 }
 /*end HEADER*/
 /* /*tous les filtres et l icone de resultat */
