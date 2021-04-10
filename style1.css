@@ -86,12 +86,7 @@ color: #0065fc;
 }
 /*end HEADER*/
 /* /*tous les filtres et l icone de resultat */
-.First > h1:nth-child(1)
-{
-font-size:3.6rem;
-margin-left:3.5rem;
-margin-bottom:0rem;  
-}
+
 .descrip
 {
 font-weight:400;
@@ -256,7 +251,7 @@ flex-wrap: wrap;
 margin-top: 3rem;
 width:133rem;
 height:63rem;
-border:solid red 0.2rem hidden;
+border:solid red 0.2rem ;
  }
  /*reglages couleurs etoiles*/
  :root
@@ -373,7 +368,7 @@ aside h1
   border-radius:1.5rem;
   
 }
-.figures_aside {
+.popular_cards {
   display: flex;
   flex-direction:row;
   flex-wrap: wrap;
@@ -382,22 +377,24 @@ aside h1
   
 }
 
-.figures_aside figure {
+article  {
   display: flex;
-  width:90%;
+  width:auto;
   margin: 1rem 2rem 0.5rem 1.5rem;
   padding:0.35rem;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 1rem;
   box-shadow: 0.2rem 0.1rem 0.5rem 0.2rem rgb(209 209 209);
+  border:solid green 0.2rem;
 }
 
-.figures_aside  img 
+aside img 
 {
   width: 12.8rem;
   height:12.5rem;
   border-radius: 1rem 0 0 1rem;
   object-fit: cover;
+  border:solid green 0.2rem;
 }
 aside div:first-child
 {
@@ -433,8 +430,13 @@ p.stars_Aside
   width:6.5rem;
   margin-left:1.2rem;
 border:solid green 0.2rem;
-
 }
+
+
+
+
+  
+
 /*container sections gauche et droite activites*/
 #main2
 {
