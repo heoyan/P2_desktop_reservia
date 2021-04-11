@@ -311,7 +311,7 @@ margin-left:4rem;
   flex-wrap: wrap;
   height:18rem;
   width:23.6rem;
-  background-color:rgb(18, 236, 47);
+  background-color:#F2F2F2;
   border-radius: 1.8rem; 
   padding-right:1rem;
   padding-left:1rem;
@@ -381,11 +381,17 @@ aside h1
 }
 .popular_cards {
   display: flex;
+  justify-content: center;
   flex-direction:row;
   flex-wrap: wrap;
   margin-left: 1.25rem;
   margin-right: 1.875rem;
   
+}
+.descriptionpopu
+{
+  display:flex;
+  flex-direction: column;
 }
 
 article  {
@@ -396,7 +402,7 @@ article  {
   background-color: rgb(255, 255, 255);
   border-radius: 1rem;
   box-shadow: 0.2rem 0.1rem 0.5rem 0.2rem rgb(209 209 209);
-  border:solid green 0.2rem;
+  border:solid green 0.2rem hidden;
 }
 
 aside img 
@@ -405,7 +411,7 @@ aside img
   height:12.5rem;
   border-radius: 1rem 0 0 1rem;
   object-fit:cover;
-  border:solid green 0.2rem;
+  border:solid green 0.2rem ;
 }
 aside div:first-child
 {
@@ -438,9 +444,10 @@ font-weight:700;
 p.stars_Aside 
 {
   display:flex;
+  justify-content: flex-end;
   width:6.5rem;
   margin-left:1.2rem;
-border:solid green 0.2rem;
+border:solid green 0.2rem hidden;
 }
 /*container sections gauche et droite activites*/
 #main2
