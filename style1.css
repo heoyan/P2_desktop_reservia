@@ -301,8 +301,7 @@ color: var(--tertiary-color-alt);
     background-color: #F2F2F2;
   }
 .hosting_main_cards
-{
-  visibility:hidden;
+{ 
 display:flex;
 align-items:center;
 flex-wrap:wrap;
@@ -353,7 +352,7 @@ margin-left:4rem;
 
 .hosting_main_cards a img
 {
-  visibility:hidden;
+  
   height:11rem;
   width:24rem;
   border-radius:1rem 1rem 0 0;
@@ -366,13 +365,13 @@ margin:0 0.75rem 0.25rem 0.75rem;
 }
 .CardTitle
 {
-  visibility:hidden;
+  
   font-weight: bold;
   margin:0.25rem 0.75rem 0 0.75rem;
   font-size:1.87rem;
 }
 .cart_description 
-{visibility:hidden;
+{
   display:flex;
   font-size:1.6rem;
   margin:0.25rem 0.75rem 0.25rem 0.75rem;
@@ -387,7 +386,7 @@ aside h1
 }
 .right_sideheberg
 { 
-  visibility:hidden;
+  
   display:flex;
   flex-direction:column;
   flex-wrap:wrap;
