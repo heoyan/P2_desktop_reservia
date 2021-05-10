@@ -227,15 +227,17 @@ padding-left:1.5rem;
 {
   display:flex;
   align-items:baseline;
-  margin-bottom:2rem;
-  margin-top:2rem;
-  
+  margin-bottom:2rem; 
 }
-/*infos*/
-p.info i
+.icoandresult i
 {
-  border:solid rgb(219, 11, 11) 0.2rem;
+  color: #0265FC;
+border-radius: 50%;
+border: #ccc solid 1px;
+padding: 10px 15px;
+margin-right: 10px; git
 }
+
 /*Barre de recherche*/
 .rechercher
 {
