@@ -10,19 +10,19 @@
 </head>
 
 <body>
-    <div id="bloc_page">
-        <header class="top">
-            <div class="logo"><img src="./logo/Reservia.svg" alt="logo"></div>
+    <div class="bloc_page">
+        <header>
+            
+            <div id="logo"><img src="images/logo/Reservia.svg" alt="Logo Reservia"></div>
             <nav>
                 <ul>
-                    <li><a href="#Hébergement" class="heb">Hébergement</a></li>
-                    <li><a href="#Activités" class="acti">Activités</a></li>
-
+                    <li><a href="#Hébergements">Hébergements</a></li>
+                    <li><a href="#Activités">Activités</a></li>
                 </ul>
             </nav>
-            <a href="#" class="btn_inscrire">S'inscrire</a>
+            <div id="register"><a href="#">S'inscrire</a></div>
         </header>
-        <h1 class="findheberg">Trouvez votre hébergement pour des vacances de rêve</h1>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p><span class="descrip">En plein centre de ville ou en pleine nature</span></p>
         <div id="barre">
             <i class="fas fa-map-marker-alt "></i>
@@ -33,20 +33,29 @@
             </div>
             <span class="rechercher"><a href="#">Rechercher</a><i class="fa fa-search" aria-hidden="true"></i></span>
         </div>
-        <div class="all_filters">
-            <h2 class="Filtre1">Filtres</h2>
-            <div><a href="#" class="filtres"><span class="Font_border"><i class="fas fa-money-bill-wave"></i></span>
-                    <span class="titres_filtres"> Economique</span></a>
-            </div>
-            <div><a href="#" class="filtres"><span class="Font_border"><i class="fas fa-child"></i></span><span
-                        class="titres_filtres"> Familial</span></a>
-            </div>
-            <div><a href="#" class="filtres"><span class="Font_border"><i class="fas fa-heart"></i></span>
-                    <span class="titres_filtres"> Romantique</span></a>
-            </div>
-            <div><a href="#" class="filtres"><span class="Font_border"><i class="fas fa-dog"></i></span>
-                    <span class="titres_filtres"> Animaux autorisés</span></a></div>
-        </div>
+                <section id="filters">
+                    <h2><strong>Filtres</strong></h2>
+                    <div class="all_filters">
+            
+                    <div class="filter">
+                        <div> <i class="fa fa-money"></i></div>
+                       
+                        <span><a href="#"><strong>Économique</strong></a></span>
+                    </div>
+                    <div class="filter">
+                        <div><i class="fa fa-users"></i></div>
+                        <span><a href="#"><strong>Familial</strong></a></span>
+                    </div>
+                    <div class="filter">
+                        <div><i class="fa fa-heart"></i></div>
+                        <span><a href="#"><strong>Romantique</strong></a></span>
+                    </div>
+                    <div class="filter">
+                        <div><i class="fa fa-paw"></i></div>
+                        <span><a href="#"><strong>Animaux autorisés</strong></a></span>
+                    </div>
+                    </div>                         
+                </section>
         <div class="icoandresult">
             <i class="fas fa-info-circle fa-3x"></i>
             <p class=commentaire_recherche>Plus de 500 logements sont disponibles dans cette ville</p>
@@ -275,33 +284,22 @@
     </div>
     <footer>
         <section class="endbloc">
-            <div class="nav_footer1">
+            <div class="column_footer1">
                 <h3>A propos</h3>
-                <nav>
-                    <ul class="list_propos">
-                        
-                        <li>Fonctionnement du site</li>
-                        <li>Conditions générales de vente</li>
-                        <li>Données et confidentialités</li>
-                    </ul>
-                </nav></div>
-                <div class="nav_footer2">
+                <a class="link_footer" href="#">Fonctionnement du site</a>
+                <a class="link_footer" href="#">Conditions générales de vente</a>
+                <a class="link_footer" href="#">Données et Confidentialités</a>
+                </div>
+                <div class="column_footer2">
                     <h3>Nos hébergements</h3>
-                <nav>
-                    <ul class="our_hostings">
-                        <li>Charte qualité</li>
-                        <li>Soumettre votre hotel</li>
-                    </ul>
-                </nav></div>
-                <div class="nav_footer3">
+                    <a class="link_footer" href="#">Charte qualité</a>
+                    <a class="link_footer" href="#">Soumettre votre hôtel</a>
+                </div>
+                <div class="column_footer3">
                     <h3>Assistance</h3>
-                <nav>
-                    <ul class="help">
-                        
-                        <li>Centre d'aide</li>
-                        <li>Nous contacter</li>
-                    </ul>
-                </nav>
+
+                <a class="link_footer" href="#">Centre d'aide</a>
+                <a class="link_footer" href="#">Nous contacter</a>
             </div>
         </section>
     </footer>
