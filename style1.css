@@ -18,8 +18,8 @@ font-size:62.5%;
 }
 .bloc_page
 {
-margin:auto;
-width:133rem;
+margin:0 290px;
+
 
 }
 body
@@ -191,9 +191,10 @@ display:flex;
 align-items: center;
 border-radius:3.2rem 3.2rem 3.2rem 3.2rem;
 border:solid rgb(119, 184, 238) 0.2rem;
-width:18rem;
 height:4.8rem; 
-margin-right:2.5rem;  
+margin-right:2.5rem; 
+padding-right:15px;
+border-left:none; 
 }
 a.filter 
 {
@@ -267,7 +268,8 @@ padding-left:3.2rem;
 font-weight:400;
 }
 
-.bloc_heberg_popu /*section liant cards heberg et populaires*/
+/*section liant cards heberg et populaires*/
+.bloc_heberg_popu 
 {
 display:flex;
 flex-direction: column;
@@ -276,6 +278,7 @@ margin-top: 3rem;
 width:133rem;
 height:52rem;
 margin-bottom:4.5rem;
+
 
  }
  .bloc_heberg_popu a
@@ -312,6 +315,7 @@ color: var(--tertiary-color-alt);
     border-radius: 1.5rem;
     background-color: #F2F2F2;
     margin-right:4rem;
+    
     
   }
 .hosting_main_cards
@@ -751,7 +755,12 @@ padding: 0 1.5rem;
  /*filters*/
  .all_filters
  {
-   margin-left:2rem;
- }   
+   margin-left:1rem;
+ } 
+ #filters {
+  width: 100%;
+  margin-left: 1rem;
+
+}
   
 }
