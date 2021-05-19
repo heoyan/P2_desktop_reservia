@@ -172,6 +172,7 @@ font-weight:700;
 #filters a
 {
   text-decoration:none;
+  color:black;
 }
 .all_filters
 {
@@ -723,10 +724,10 @@ margin-top:4rem;
 margin-bottom:4rem;
 
 }
-#barre.fa-search {
+#barre .fa-search {
 display:block;
 }
-.rechercher a
+#barre .rechercher 
 {
 display:none;
 }
