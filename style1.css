@@ -164,7 +164,7 @@ font-weight:700;
   font-weight:700;  
   border-radius: 0rem 1.5rem 1.5rem 0;
 }
-#barre i.fa.fa-search {
+#barre i.fas.fa-search {
   color: white;
   display:none;
 }
@@ -724,8 +724,12 @@ margin-top:4rem;
 margin-bottom:4rem;
 
 }
-#barre .fa-search {
+#barre i.fas.fa-search 
+{
 display:block;
+padding-top:2rem;
+border-radius:20%;
+background-color:#0065FC;
 }
 #barre .rechercher 
 {
